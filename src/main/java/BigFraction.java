@@ -53,4 +53,9 @@ public class BigFraction {
         String denominatorStr = split[1];
         return new BigFraction(numeratorStr, denominatorStr);
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
